@@ -22,7 +22,7 @@ Get data by `:id`
 `POST /`
 
 Post a new data 
-**Notes: data submitted will be not store, otherwise only for response purpose**
+**Notes: data submitted will not be stored, otherwise only for response purpose**
 
 Test Cases
 -------------------
