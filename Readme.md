@@ -1,12 +1,22 @@
-QA TEST - HOW TO
+QA TEST - INSTRUCTION
 ===================
 
-This test will be using MochaJS `http://mochajs.org` , so please make sure that you have installed NodeJS `http://nodejs.org` on your system.
+Please create app that will be test this app using MochaJS. Please make sure that you have installed NodeJS `http://nodejs.org` on your system.
 
-API Access
+HOW TO
 -------------------
 
-The API can be accessed at `http://103.23.20.123:9999/`
+Run `npm install` to install needed package to this app
+
+``` npm install ```
+
+You can add package as you like (include mochajs)
+
+Create your test that hit this API's app
+
+Add your script to package json so it can be run with 
+
+``` npm test ```
 
 API 
 -------------------
@@ -22,12 +32,11 @@ Get data by `:id`
 `POST /`
 
 Post a new data 
-**Notes: data submitted will not be stored, otherwise only for response purpose**
 
 Test Cases
 -------------------
 
-Please find test cases below.
+Please fulfill test cases below.
 
 > **Test Case A**
 
@@ -61,33 +70,7 @@ Please find test cases below.
 
 ----------------------------------------
 
-
-GO QA TEST
-===================
-
-Hey! Hope you are doing well. This is a repo for an API service for QA test.
-
-----------
-
-Pre-requisite
--------------
-
-Before you start, make sure that you have install `Go v1.7.5` 
-And then, please run the compiled version:
-
-`./go-qa-test` 
-
-or 
-
-Please install below go packages:
-
-> - go get -u -v gopkg.in/kataras/iris.v6
-> - go get -u -v gopkg.in/kataras/iris.v6/adaptors/httprouter
-> - go get -u -v gopkg.in/kataras/iris.v6/middleware/logger
-
-then run:
-
-`go run main.go`
+**Please make sure npm test can be run twice and success**
 
 ----------
 
@@ -95,3 +78,5 @@ Author
 ---------
 
 [Faris](faris@amartha.com)
+
+[Egon Firman](egon.firman@amartha.com)
