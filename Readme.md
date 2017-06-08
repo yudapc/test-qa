@@ -12,7 +12,7 @@ You can add package as you like (include mochajs)
 
 Create your test that hit this API's app
 
-Add your script to package json so it can be run with ` npm test `
+Add your script to `package json` so you can run it with ` npm test `
 
 API 
 -------------------
