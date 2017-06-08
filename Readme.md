@@ -8,15 +8,11 @@ HOW TO
 
 Run `npm install` to install needed package to this app
 
-``` npm install ```
-
 You can add package as you like (include mochajs)
 
 Create your test that hit this API's app
 
-Add your script to package json so it can be run with 
-
-``` npm test ```
+Add your script to package json so it can be run with ` npm test `
 
 API 
 -------------------
@@ -67,8 +63,6 @@ Please fulfill test cases below.
 > - Make sure that the data `fullname` is have a same value with what you've posted.
 > - Make sure that the data `age` is have a same value with what you've posted.
 > - Make sure that the data `email` is have a same value with what you've posted.
-
-----------------------------------------
 
 **Please make sure npm test can be run twice and success**
 
