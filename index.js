@@ -18,4 +18,6 @@ app.post('/', bodyParser.json(), (req, res) => {
   res.send(newData)
 })
 
-app.listen(9999)
+var port = 9999;
+app.listen(port)
+console.log('Application started, listening to: ' + port);
