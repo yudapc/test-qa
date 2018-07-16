@@ -71,7 +71,6 @@ Please fulfill test cases below.
 
 Run Tests
 ---------
-  **Run Test
   `npm run test`
 
 
